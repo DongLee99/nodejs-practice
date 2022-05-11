@@ -1,6 +1,6 @@
 //router index file
 import { Router } from 'express';
-import { UserController } from '../controllers';
+import UserRouter from './UserRouter';
 
 const router = Router();
 
